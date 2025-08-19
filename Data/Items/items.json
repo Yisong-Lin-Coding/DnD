@@ -1,0 +1,622 @@
+{
+
+        "ration":{
+            "description": "Full of all kinds of travel foods, like dry meat, no wet meat please, and nuts. Lots of nuts.",
+            "weight": 1,
+            "cost": 1
+                },
+        "apple":{
+            "description": "It's an apple. It's big, it's round, it's red, It's other descriptive words",
+            "weight": 0.25,
+            "cost": 1
+            },
+        "basic fruit":{
+            "description": "You taste it and it tastes fruity. You hold it in your hands and feel it's smoothish, stickyish, slimyish, fussyish surface and it's cubish, roundish, spikyish makup. looking at it you can't help but appreciate it's greenish, blueish, brownish color. All it all it's quite a magnificent fruit.",
+            "weight": 0.5,
+            "cost": 1
+        },
+
+        "slop":{
+            "description": "A grey slimy substance. Not very apealing to the senses.",
+            "weight": 1,
+            "CONmod": "disadvantage"
+        },
+        "plain meal":{
+            "description": "A plain meal with a piece of soft wheat bread and a filling soup. Great meal for those looking to save a bit of money",
+            "weight": 1,
+            "cost": 5
+        },
+        "elaborate meal":{
+            "description": "An elaborate meal with a steak at the center, supported by various side dishes and top off with a rather pleasent stew.",
+            "weight": 1,
+            "cost": 10,
+            "HP": "2d4"
+        },
+        "fancy meal":{
+            "description": "A fansy meal made of the most fanciest foods you know, unfortunately you don't know many fancy foods.",
+            "weight": 1,
+            "cost":  25,
+            "HP": "4d6"
+
+        },
+        "feast":{
+            "description": "A massive feast with more then enough food for 6 people",
+            "weight": 6,
+            "cost":  250,
+            "HP": "2d6"
+
+        },
+        "rice":{
+            "description": "It's fucking rice, it's white and sticky and...NOT LIKE THAT CYRILLE",
+            "weight": 1,
+            "cost": 1
+    
+        },
+        "egg":{
+            "description": "12 dozen egg",
+            "weight":1,
+            "cost": 2
+    
+        },
+        "potato":{
+            "description": "A starchy tuber, perfect for mashing, frying, or baking.",
+            "weight":1,
+            "cost": 1
+
+        },
+        "onion":{
+            "description": "A pungent bulb, great for adding flavor to dishes or making you cry.",
+            "weight":1,
+            "cost": 1
+
+        },
+        "garlic":{
+            "description": "A strong-smelling bulb, perfect for adding flavor to dishes or warding off vampires.",
+            "weight":1,
+            "cost": 1
+
+        },
+        "cabbage":{
+            "description": "A leafy green vegetable, great for salads or cooking.",
+            "weight":1,
+            "cost": 1
+
+        },
+        "tomato":{
+            "description": "A juicy red fruit, perfect for salads, sauces, or just eating plain.",
+            "weight":1,
+            "cost": 1
+
+        },
+        "pepper":{
+            "description": "A spicy fruit, great for adding heat to dishes or just eating plain.",
+            "weight":1,
+            "cost": 1
+
+        },
+        
+        "root vegetables":{
+            "description": "It's like a carrot or something",
+            "weight":1 ,
+            "cost": 1
+
+        },
+        "dried fruit":{
+            "description": "chewy, sweet dried fruit favored by travelers and merchants.",
+            "weight":1,
+            "cost": 1
+
+        },"cheese":{
+            "description": "it's a yellow triangle with holes in it",
+            "weight":1,
+            "cost": 1
+
+        },
+        "vegetables":{
+            "description": "A mix of fresh vegetables, perfect for a healthy meal.",
+            "weight":1,
+            "cost": 2
+
+        },
+
+        "raw meat":{
+            "description": "The meat of some sort of creature. You can still see the blood oozing out",
+            "weight":1,
+            "cost": 3
+
+        },
+        "cooked meat":{
+            "description": "The meat of some sort of creature. You can still see the blood oozing out, but it's cooked so it's fine",
+            "weight":1,
+            "cost": 5
+
+        },
+        "bread":{
+            "description": "A loaf of bread, perfect for sandwiches or just eating plain.",
+            "weight":1,
+            "cost": 1
+
+        },
+        "fish":{
+            "description": "A fish, caught fresh from the river. It's still flopping around.",
+            "weight":1,
+            "cost": 2
+
+        },
+        "nuts":{
+            "description": "A handful of nuts, perfect for snacking on the go.",
+            "weight":1,
+            "cost": 1
+
+        },
+        "honey":{
+            "description": "A jar of honey, sweet and sticky. Perfect for adding to tea or spreading on bread.",
+            "weight":1,
+            "cost": 3
+
+        },
+        "spices":{
+            "description": "A collection of spices, perfect for adding flavor to any dish.",
+            "weight":1,
+            "cost": 2
+
+        },
+        "salt":{
+            "description": "A small pouch of salt, essential for preserving food and adding flavor.",
+            "weight":1,
+            "cost": 1
+
+        },
+        "sugar":{
+            "description": "A small pouch of sugar, perfect for sweetening drinks or desserts.",
+            "weight":1,
+            "cost": 1
+
+        },
+        "tea":{
+            "description": "A small pouch of dried tea leaves, perfect for brewing a warm cup of tea.",
+            "weight":1,
+            "cost": 2
+
+        },
+        "coffee":{
+            "description": "A small pouch of ground coffee beans, perfect for brewing a strong cup of coffee.",
+            "weight":1,
+            "cost": 2
+
+        },
+        "ale":{
+            "description": "A small barrel of ale, perfect for quenching your thirst after a long day.",
+            "weight":1,
+            "cost": 5
+
+        },
+        "wine":{
+            "description": "A bottle of wine, perfect for celebrating special occasions or just relaxing after a long day.",
+            "weight":1,
+            "cost": 10
+
+        },
+        "mead":{
+            "description": "A bottle of mead, a sweet alcoholic beverage made from honey and water.",
+            "weight":1,
+            "cost": 15
+
+        },
+        "milk":{
+            "description": "A bottle of milk, fresh and creamy. Perfect for drinking or cooking.",
+            "weight":1,
+            "cost": 2
+
+        },
+        "juice":{
+            "description": "A bottle of fresh fruit juice, sweet and refreshing.",
+            "weight":1,
+            "cost": 3
+
+        },
+        "soup":{
+            "description": "A bowl of hot soup, perfect for warming you up on a cold day.",
+            "weight":1,
+            "cost": 2
+
+        },
+        "stew":{
+            "description": "A hearty stew, filled with meat and vegetables. Perfect for a filling meal.",
+            "weight":1,
+            "cost": 4
+
+        },
+        "cake":{
+            "description": "A slice of cake, sweet and delicious. Perfect for dessert.",
+            "weight":1,
+            "cost": 5
+
+        },
+        "pie":{
+            "description": "A slice of pie, filled with sweet fruit and topped with a flaky crust.",
+            "weight":1,
+            "cost": 4
+
+        },
+        "cookies":{
+            "description": "A small bag of cookies, sweet and crunchy. Perfect for snacking.",
+            "weight":1,
+            "cost": 2
+
+        },
+        "candy":{
+            "description": "A small bag of candy, sweet and chewy. Perfect for satisfying your sweet tooth.",
+            "weight":1,
+            "cost": 1
+
+        },
+        "chocolate":{
+            "description": "A bar of chocolate, rich and creamy. Perfect for a quick energy boost.",
+            "weight":1,
+            "cost": 3
+
+        },
+        "popcorn":{
+            "description": "A small bag of popcorn, light and fluffy. Perfect for snacking while watching a show.",
+            "weight":1,
+            "cost": 2
+
+        },
+        "chips":{
+            "description": "A small bag of chips, crispy and salty. Perfect for snacking on the go.",
+            "weight":1,
+            "cost": 1
+
+        },
+        "pretzels":{
+            "description": "A small bag of pretzels, crunchy and salty. Perfect for snacking.",
+            "weight":1,
+            "cost": 1
+
+        },
+        "jerky":{
+            "description": "A small bag of dried meat, perfect for snacking on the go.",
+            "weight":1,
+            "cost": 3
+
+        },
+        
+
+        "":{
+            "description": "",
+            "weight":1,
+            "cost": 3
+
+        },
+
+    
+
+
+        "dagger": {
+            "description": "A small blade, perfect for stabbing and throwing. It has a sharp edge and a pointed tip.",
+            "class": ["melee", "thrown", "light", "finesse", "simple", "piercing", "dagger", "equipment","weapons"],
+            "weight":1,
+            "cost": 3,
+            "damage": ["1d4"]
+
+        },
+        "shortsword": {
+            "description": "A short blade, ideal for quick strikes and close combat. It is light and easy to handle.",
+            "class": ["melee", "light", "finesse", "simple", "slashing", "sword"],
+            "weight": 2,
+            "cost": 10,
+            "damage": ["1d6"]
+        },
+        "longsword": {
+            "description": " A longer blade, designed for powerful strikes and versatile combat. It can be used with one or two hands.",
+            "class": ["melee", "versatile", "martial", "slashing", "sword"],
+            "weight": 3,
+            "cost": 15,
+            "damage": ["1d8", "1d10"]
+        },
+        "greatsword": {
+            "description": "A massive blade, perfect for delivering devastating blows. It requires two hands to wield effectively.",
+            "class": ["melee", "heavy", "two-handed", "martial", "piercing", "slashing", "sword"],
+            "weight": 6,
+            "cost": 50,
+            "damage": [2,6]
+        },
+        "battleaxe": {
+            "description": "A heavy axe designed for combat, capable of cleaving through armor and shields.",
+            "class": ["melee", "heavy", "two-handed", "martial", "slashing", "axe"],
+            "weight": 4,
+            "cost": 10,
+            "damage": [1,8]
+        },
+        "warhammer": {
+            "description": "A sturdy hammer designed for combat, effective against both armored and unarmored foes.",
+            "class": ["melee", "heavy", "two-handed", "martial", "bludgeoning", "hammer"],
+            "weight": 4,
+            "cost": 15,
+            "damage": [1,8]
+        },
+        "mace": {
+            "description": "A blunt weapon with a heavy head, designed to crush armor and bone.",
+            "class": ["melee", "one-handed", "martial", "bludgeoning", "hammer"],
+            "weight": 2,
+            "cost": 5,
+            "damage": [1,6]
+        },
+        "spear": {
+            "description": "A long pole with a sharp point, suitable for thrusting and throwing.",
+            "class": ["melee", "thrown", "simple", "piercing", "spear"],
+            "weight": 3,
+            "cost": 5,
+            "damage": "1d6"
+        },
+        "quarterstaff": {
+            "description": "A long wooden staff, versatile for both offense and defense. Can be used with one or two hands.",
+            "class": ["melee", "versatile", "simple", "bludgeoning", "staff"],
+            "weight": 4,
+            "cost": 2,
+            "damage": "1d6"
+        },
+        "crossbow": {
+            "description": "A ranged weapon that uses a mechanical mechanism to shoot bolts with great force.",
+            "class": ["ranged", "heavy", "loaded", "martial", "piercing", "bow"],
+            "weight": 5,
+            "cost": 25,
+            "damage": "1d8"
+        },
+        "longbow": {
+            "description": "A powerful ranged weapon that uses a long, flexible bow to shoot arrows over great distances.",
+            "class": ["ranged", "heavy", "loaded", "martial", "piercing", "bow"],
+            "weight": 2,
+            "cost": 50,
+            "damage": "1d8"
+        },
+        "shortbow": {
+            "description": "A compact ranged weapon that uses a shorter bow to shoot arrows quickly and accurately.",
+            "class": ["ranged", "light", "loaded", "martial", "piercing", "bow"],
+            "weight": 2,
+            "cost": 25,
+            "damage": "1d6"
+        },
+        "handaxe": {
+            "description": "A small axe designed for throwing and close combat. It is light and easy to handle.",
+            "class": ["melee", "thrown", "light", "martial", "slashing", "axe"],
+            "weight": 2,
+            "cost": 5,
+            "damage": "1d6"
+        },
+        "sling": {
+            "description": "A simple ranged weapon that uses a leather pouch to hurl small stones or bullets.",
+            "class": ["ranged", "simple", "bludgeoning", "sling"],
+            "weight": 0.5,
+            "cost": 1,
+            "damage": "1d4"
+        },
+        "blowgun": {
+            "description": "A tube used to shoot small darts or needles, often coated with poison.",
+            "class": ["ranged", "simple", "piercing", "blowgun"],
+            "weight": 1,
+            "cost": 10,
+            "damage": "1d4"
+        },
+        "whip": {
+            "description": "A flexible weapon made of leather or similar material, used for striking and entangling.",
+            "class": ["melee", "finesse", "reach", "simple", "slashing", "whip"],
+            "weight": 1,
+            "cost": 2,
+            "damage": "1d4"
+        },
+        "trident": {
+            "description": "A three-pronged spear, effective for both thrusting and throwing.",
+            "class": ["melee", "thrown", "martial", "piercing", "spear"],
+            "weight": 4,
+            "cost": 5,
+            "damage": "1d6"
+        },
+        "halberd": {
+            "description": "A pole weapon with an axe blade and a spike, designed for both slashing and thrusting.",
+            "class": ["melee", "heavy", "two-handed", "martial", "piercing", "slashing", "axe", "equipment", "weapons"],
+            "weight": 6,
+            "cost": 20,
+            "damage": "1d10"
+        },
+        "lance": {
+            "description": "A long spear designed for mounted combat, effective for charging attacks.",
+            "class": ["melee", "heavy", "two-handed", "martial", "piercing", "spear"],
+            "weight": 6,
+            "cost": 10,
+            "damage": [1,12]
+        },
+        "pike": { 
+            "description": "A long pole weapon with a sharp point, designed for thrusting and keeping enemies at bay.",
+            "class": ["melee", "heavy", "two-handed", "martial", "piercing", "spear"],
+            "weight": 10,
+            "cost": 10,
+            "damage": [1,10] 
+        },
+        "scimitar": {
+            "description": "A curved sword with a single-edged blade, designed for slashing attacks.",
+            "class": ["melee", "light", "martial", "slashing", "sword"],
+            "weight": 3,
+            "cost": 25,
+            "damage": [1,6]
+        },
+        "rapier": {
+            "description": "A slender, pointed sword designed for thrusting attacks. It is light and agile.",
+            "class": ["melee", "finesse", "martial", "piercing", "sword"],
+            "weight": 2,
+            "cost": 25,
+            "damage": [1,8]
+        },
+        "flail": {
+            "description": "A weapon with a spiked ball attached to a chain, designed for crushing and entangling.",
+            "class": ["melee", "heavy", "two-handed", "martial", "bludgeoning", "mace"],
+            "weight": 4,
+            "cost": 10,
+            "damage": [1,8]
+        },
+        "morningstar": {
+            "description": "A spiked club designed for crushing armor and bone, effective in close combat.",
+            "class": ["melee", "heavy", "two-handed", "martial", "bludgeoning", "mace"],
+            "weight": 6,
+            "cost": 15,
+            "damage": [2,8]
+        },
+        "glaive": {
+            "description": "A pole weapon with a curved blade, designed for slashing and thrusting attacks.",
+            "class": ["melee", "heavy", "two-handed", "martial", "slashing", "sword"],
+            "weight": 6,
+            "cost": 20,
+            "damage": [1,10]
+        },
+        "sickle": {
+            "description": "A curved blade with a short handle, designed for cutting and slashing.",
+            "class": ["melee", "light", "simple", "slashing", "sickle"],
+            "weight": 1,
+            "cost": 2,
+            "damage": [1,4]
+        },
+
+        "lp c":{
+            "description": "A light piece of armor made of cloth, providing basic protection without hindering movement.",
+            "class": ["light", "cloth", "armor", "inner", "light partial"],
+            "weight": 2,
+            "effects":{
+                "ph": 0,
+                    "pi": 0,
+                    "sl": 0,
+                    "bl": 0,
+                "ma": 0,
+                    "co": 0,
+                    "fi": 0,
+                    "li": 0,
+                    "th": 0,
+                    "po": 0,
+                    "ac": 0,
+                    "ne": 0,
+                    "ra": 0,
+                    "fo": 0,
+                    "ps": 0
+            }
+
+
+        },
+
+        "healing potion":{
+            "description": "A small vial filled with a red liquid that glows faintly. It is said to heal wounds and restore vitality.",
+            "weight": 0.1,
+            "cost": 50,
+            "HP": "2d4 + 2"
+        },
+        "mana potion":{
+            "description": "A small vial filled with a blue liquid that shimmers in the light. It is said to restore magical energy.",
+            "weight": 0.1,
+            "cost": 75,
+            "MP": "2d4 + 2"
+        },
+        "strength potion":{
+            "description": "A small vial filled with a green liquid that bubbles slightly. It is said to increase physical strength temporarily.",
+            "weight": 0.1,
+            "cost": 100,
+            "duration": "1 hour",
+            "strength_bonus": "+2"
+        },
+        "speed potion":{
+            "description": "A small vial filled with a yellow liquid that sparkles. It is said to increase speed and agility temporarily.",
+            "weight": 0.1,
+            "cost": 100,
+            "duration": "1 hour",
+            "speed_bonus": "+10 feet"
+        },
+        "invisibility potion":{
+            "description": "A small vial filled with a clear liquid that seems to shimmer in the light. It is said to grant temporary invisibility.",
+            "weight": 0.1,
+            "cost": 200,
+            "duration": "1 minute",
+            "effect": "grants invisibility"
+        },
+        "antidote":{
+            "description": "A small vial filled with a clear liquid that smells faintly of herbs. It is said to cure poisons and toxins.",
+            "weight": 0.1,
+            "cost": 50
+        },
+        "elixir of life":{
+            "description": "A small vial filled with a golden liquid that glows faintly. It is said to extend life and restore vitality.",
+            "weight": 0.1,
+            "cost": 500,
+            "HP": "5d10 + 10"
+        },
+        "potion of fire resistance":{
+            "description": "A small vial filled with a red liquid that feels warm to the touch. It is said to grant resistance to fire damage.",
+            "weight": 0.1,
+            "cost": 150,
+            "duration": "1 hour",
+            "resistance": "fire"
+        },
+        "potion of cold resistance":{
+            "description": "A small vial filled with a blue liquid that feels cool to the touch. It is said to grant resistance to cold damage.",
+            "weight": 0.1,
+            "cost": 150,
+            "duration": "1 hour",
+            "resistance": "cold"
+        },
+        "potion of poison resistance":{
+            "description": "A small vial filled with a green liquid that smells faintly of herbs. It is said to grant resistance to poison damage.",
+            "weight": 0.1,
+            "cost": 150,
+            "duration": "1 hour",
+            "resistance": "poison"
+        },
+        "potion of lightning resistance":{
+            "description": "A small vial filled with a yellow liquid that crackles faintly. It is said to grant resistance to lightning damage.",
+            "weight": 0.1,
+            "cost": 150,
+            "duration": "1 hour",
+            "resistance": "lightning"
+        },
+        "potion of acid resistance":{
+            "description": "A small vial filled with a green liquid that bubbles slightly. It is said to grant resistance to acid damage.",
+            "weight": 0.1,
+            "cost": 150,
+            "duration": "1 hour",
+            "resistance": "acid"
+        },
+        "wood":{
+            "description": "A sturdy piece of wood, perfect for crafting or building.",
+            "weight": 1,
+            "cost": 2
+        },
+        "stone":{
+            "description": "A solid piece of stone, useful for construction or as a weapon.",
+            "weight": 2,
+            "cost": 3
+        },
+        "iron":{
+            "description": "A strong metal, ideal for forging weapons and armor.",
+            "weight": 3,
+            "cost": 5
+        },
+        "gold":{
+            "description": "A precious metal, valuable for trade and crafting jewelry.",
+            "weight": 0.1,
+            "cost": 100
+        },
+        "silver":{
+            "description": "A shiny metal, often used in crafting coins and jewelry.",
+            "weight": 0.1,
+            "cost": 50
+        },
+        "leather":{
+            "description": "Tanned hide, perfect for making armor or clothing.",
+            "weight": 1,
+            "cost": 10
+        },
+        "cloth":{
+            "description": "A roll of fabric, useful for making clothes or tents.",
+            "weight": 0.5,
+            "cost": 5
+        }
+
+
+    }
+

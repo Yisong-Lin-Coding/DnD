@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="../index.css">
+    
+</head>
+<body class="page">
+    <div class="topBar">
+      <a href="./Home.html" title="Welcome Home">
+        <img src="../Images/DnD-Symbol.png" alt="Instert DnD Icon" height="30px" style="margin: 10px; position: absolute; top: 0px; left: 0px;">
+        </a>
+
+        <h1 class="pagename">
+          <a>
+                Spells List & Maker
+          </a>
+        </h1>
+      </div>
+      <div class="topBar3">
+            <div class="box1">
+              <a href="./items list.html">
+              Item list/Maker 
+            </a>
+            </div>
+            <div class="box1">
+              <a href="./Spells.html">
+              Spell List/Maker
+              </a>
+            </div>
+            <div class="box1">
+              <a href="./abilties.html">
+              Abilities List/Maker
+              </a>
+            </div>
+            <div class="box1">
+              <a href="./players.html">
+              Players
+              </a>
+            </div>
+            <div class="box1">
+              <a href="./devtools.html">
+              Devtools
+              </a>
+            </div>
+      </div>
+    <div class="container">
+      <div class="sideBarL">
+        </div>
+        <div class="mainBar">
+          <form action="" id="spellmaker">
+            <label for="spellname"  class="basictext">Name of Spell:</label>
+              <br>
+            <input type="text" title="Name" id="spellname">        
+             </input>
+              <br>
+              <br>
+            <label for="lv" class="basictext">Spell Level:</label>
+              <br>
+            <select type="text" title="lv" id="lv">
+              <option value="lv0">Cantrip</option>
+              <option value="lv1">Level 1</option>
+              <option value="lv2">Level 2</option>
+              <option value="lv3">Level 3</option>    
+              <option value="lv4">Level 4</option>
+              <option value="lv5">Level 5</option>
+              <option value="lv6">Level 6</option>
+              <option value="lv7">Level 7</option>  
+              <option value="lv8">Level 8</option>
+              <option value="lv8">Level 8</option>
+              <option value="lv9">Level 9</option>          
+            </select>
+              <br>
+              <br>
+              <label for="diff" class="basictext">Difficulty of Spell:</label>
+              <br>
+            <input type="text" title="diff" id="diff">        
+            </input>
+              <br>
+              <br>
+              <label for="duration" class="basictext">Duration of spell:</label>
+              <br>
+            <input type="text" title="dur" id="dur">        
+            </input>
+              <br>
+              <br>
+              <label for="range" class="basictext">Range of Spell:</label>
+              <br>
+            <input type="text" title="range" id="range">        
+            </input>
+              <br>
+              <br>
+            <label for="description" class="basictext">Discription of Spell:</label>
+              <br>
+            <input type="text" title="description" id="description">
+          </input>
+              <br> 
+              <br>
+             <label for="spellname" class="basictext">Effects</label>
+              <br>
+            <input type="text" title="Name" id="effect">        
+            </input>
+              <br>       
+              <br>
+          <button type="submit">Submit</button>
+          </form>
+        </div>
+
+      </div>
+  
+    
+    <script src="../php handler/spells.js"> </script>
+    </script>
+</body>
+</html>

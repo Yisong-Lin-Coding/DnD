@@ -1,0 +1,25 @@
+advatage =
+    exampe:
+    stealthAdvatange
+    1 = Advantage
+    0 = no Advantage
+    -1 = Disadvantage
+
+Modifier =
+    example 
+    stealthMOD
+    # = numer you add
+
+items
+    activeEffects{
+
+    }
+    passiveEffects{
+
+    }
+    equipable(
+        true/false
+    )
+
+abilities 
+    

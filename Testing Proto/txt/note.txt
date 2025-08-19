@@ -1,0 +1,70 @@
+
+class = player {
+    construction { 
+
+    }
+    createall{
+
+    }
+    save(){
+
+    }
+
+    characterSetting(nameofthing = name, change){
+        this.playersheet.[nameofthing] = change
+    }
+
+    inisitaive{
+
+    }
+    hitcalc(target){
+
+    }
+    reaction(reactiontype){
+        const react = New reaction(reactiontype)
+        react.perform(this.name)
+    }
+    attack(weapon){
+        
+    }
+    cast(spell){
+
+    }
+
+    addEffect(effect){
+        onApply[effect]()
+    }
+    tickEffects(effect){
+        onTick[effect]()
+    }
+    removeEffect(effect){
+        onRemove[effect]
+    }
+    
+
+     
+}
+
+class = reaction {
+    constructor(reaction = "dodge") {
+        this.reaction = reaction;
+    }
+    perform(player) {
+        this[this.reaction](player)
+    }
+    dodge(player){
+        
+    }
+    block(player){
+        
+    }
+}
+
+class 
+
+const effectLibary = {
+    marked:{
+        on
+
+    }
+}

@@ -1,0 +1,70 @@
+[
+    {
+        "name": "elf",
+        "description": "A graceful and agile character, skilled in archery and magic.",
+        "effects": {
+            "statmod": [0, 0, 2, 2, 0, 0, 0],
+            "abilities": {
+                
+                }
+            }
+            
+        },
+        {
+        "name": "goblin",
+        "description": "A cunning and resourceful character, adept at stealth and trickery.",
+        "effects": {
+            "statmod": [0, 0, 4, 0, 0, 0, 0],
+            "abilities": {
+                
+                }
+            }
+            
+        },
+        {
+        "name": "dragonborn",
+        "description": "A powerful and resilient character, with a strong connection to dragonkind.",
+        "effects": {
+            "statmod": [2, 0, 0, 0, 0, 2, 0],
+            "abilities": {
+                
+                }
+            }
+            
+        },
+        {
+        "name": "tiefling",
+        "description": "A character with infernal heritage, possessing dark magic and resilience.",
+        "effects": {
+            "statmod": [0, 0, 0, 0, 2, 2, 0],
+            "abilities": {
+                
+                }
+            }
+            
+        },
+        {
+        "name": "half-Orc",
+        "description": "A strong and hardy character, known for their brute strength and combat prowess.",
+        "effects": {
+            "statmod": [2, 2, 0, 0, 0, 0, 0],
+            "abilities": {
+                
+                }
+            }
+            
+        },
+        {
+        "name": "lich",
+        "description": "An undead spellcaster with immense magical power and resilience.",
+        "effects": {
+            "statmod": [-2, 0, 0, 0, 6, 0, 0],
+            "abilities": {
+                
+                }
+            }
+            
+        }
+    
+
+]

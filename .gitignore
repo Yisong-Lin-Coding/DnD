@@ -1,0 +1,6 @@
+"Discord Bot/node_modules/"
+"Discord Bot/.env/"
+node_modules/
+DMweb/dist/
+.env/
+"Discord Bot/dist/"

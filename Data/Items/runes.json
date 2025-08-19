@@ -1,0 +1,94 @@
+{
+    "poison":{
+        "name": "Rune of Poison",
+        "tier": 1,
+        "description": "This rune applies a poison effect to the item, causing additional damage over time.",
+        "activation ": "attack",
+        "effects":{
+            "applyeffect": ["poison1","poison1","poison2", "poison3", "poison3", "poison4"],
+            "saveDC": {
+                "type": "CON",
+                "DC": [11,13,15,17,19,21]
+            },
+            "duration": [3, 5, 7, 9, 11, 13]
+            },
+        "damage": ["1d4", "1d6", "1d8", "1d12", "3d6", "4d8"],
+        "damagetype": "poison"
+
+        },
+    "decay":{
+        "name": "Rune of Decay",
+        "tier": 2,
+        "description": "This rune eats away at the recipient's health, causing them to take damage over time.",
+        "activation ": "attack",
+        "effects":{
+            "applyeffect": ["decay1", "decay1", "decay2", "decay2", "decay3", "decay4"],
+            "duration": [3, 5, 7, 9, 11, 13]
+            },
+        "damage": ["1d4", "1d8", "1d12", "4d6", "4d10", "6d12"],
+        "damagetype": "necrotic"
+    },
+    "glass":{
+        "name": "Rune of Glass",
+        "tier": 2,
+        "description": "The recipient becomes as fragile as glass, taking increased damage from all sources.",
+        "activation ": "attack",
+        "effects":{
+            "applyeffect": ["weak1", "weak1", "weak2", "weak2", "weak3", "weak4"],
+            "duration": [3, 5, 7, 9, 11, 13]
+            }
+    },
+    "fire":{
+        "name":"Rune of Fire",
+        "tier": 1,
+        "description": "This rune imbues the item with fiery power, causing it to deal fire damage on hit.",
+        "activation ": "attack",
+        "effects":{},
+        "damage": ["1d4", "1d6", "1d8", "1d12", "3d6", "4d8"],
+        "damagetype": "fire"
+    },
+    "inferno":{
+        "name":"Rune of Inferno",
+        "tier": 2,
+        "description": "This rune unleashes a wave of fire, dealing massive damage to the target.",
+        "activation ": "attack",
+        "effects":{
+            "applyeffect": ["burn1", "burn1", "burn2", "burn2", "burn3", "burn3"],
+            "duration": [5, 5, 5, 10, 10, 15]
+        },
+        "damage": ["1d4", "1d8", "1d12", "4d6", "4d10", "6d12"],
+        "damagetype": "fire"
+    },
+    "fireAbsorb":{
+        "name":"Rune of Fire Absorption",
+        "tier": 3,
+        "description": "This rune grants the recipient resistance to fire damage.",
+        "activation ": "passive",
+        "effects":{
+            "applyeffect": ["fireabsorb1", "fireabsorb2", "fireabsorb3", "fireabsorb4", "fireabsorb5", "fireabsorb6"]
+        }
+    },
+    "kamikaze":{
+        "name": "Rune of Kamikzae",
+        "tier": 3,
+        "description": "Little man go boom",
+        "activation": "passive",
+        "effects":{
+            "addspell": ["kamikaze1", "kamikaze2", "kamikaze3", "kamikaze4", "kamikaze5", "kamikaze6"]
+        }
+    },
+    "sacredBlaze":{
+        "name": "Rune of Sacred Blaze",
+        "tier": 3,
+        "description": "The light of Jesus be with you",
+        "activation": "attack",
+        "effect":{
+            "applyeffect":["judgement1", "judgement1", "judgement2","judgement3", "judgement4", "judgement5"],
+            "duration":[3,3,3,5,5,5]
+
+        },
+        "damage":["4d10", "6d12", "12d12", "24d12", "36d20", "60d20"],
+        "damagetype":"radiant"
+    }
+
+}

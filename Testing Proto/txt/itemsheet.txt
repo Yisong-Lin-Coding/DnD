@@ -1,0 +1,66 @@
+{
+    common:{
+        dagger:{
+            tags:[],
+            description:
+            cost:
+            options:{
+                damage:{
+                    damageType:
+                    meleeDamage:
+                    thrownDamage:
+                    
+                }
+                onEquipEffects:{
+
+                },
+                onAttackEffects:{
+                    
+                }
+                onDefendEffects:{
+
+                }
+            }
+        },
+        apple:{
+            tags:[],
+            description:
+            cost:
+            options:{
+                onConsumeEffect:{
+
+                }
+            }
+        }
+
+    },
+    unqiue:{
+        A-AA001:{
+            nickname:
+            codename: A-AA001
+            baseItem:
+            tags:[]
+            description:
+            cost:
+            options:{
+                bond:{
+                    isBond:true
+                    player:
+                }
+                effects:{
+
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
+mongodb+srv://mtsacyl4:wdLAc7KTriWlTj1b@cluster0.r7blgmn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

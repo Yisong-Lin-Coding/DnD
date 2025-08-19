@@ -1,0 +1,22 @@
+{
+  "name": "DarkSpot",
+  "productName": "Dark Spot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "electron": "electron .",
+    "package": "electron-builder build"
+  },
+  "keywords": [],
+  "author": "Tension",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^37.2.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.Gravity.DarkSpot"
+  }
+}

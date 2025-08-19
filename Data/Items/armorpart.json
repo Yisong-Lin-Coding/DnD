@@ -1,0 +1,445 @@
+{
+    "light partial": {
+        "size": 3,
+        "class": ["inner", "base", "light"],
+        "name": "Light Partial",
+        "effect": {
+            "ph": 0,
+                    "pi": 0,
+                    "sl": 1,
+                    "bl": 0,
+                "ma": 0,
+                    "co": 0,
+                    "fi": 0,
+                    "li": 0,
+                    "th": 0,
+                    "po": 0,
+                    "ac": 0,
+                    "ne": 0,
+                    "ra": 0,
+                    "fo": 0,
+                    "ps": 0
+        }
+
+
+    },
+    "light full body": {
+        "size": 6,
+        "class": ["inner", "base", "light"],
+        "name": "Light Full Body",
+        "effect": {
+            "ph": 1,
+                    "pi": 0,
+                    "sl": 1,
+                    "bl": 0,
+                "ma": 0,
+                    "co": 0,
+                    "fi": 0,
+                    "li": 0,
+                    "th": 0,
+                    "po": 0,
+                    "ac": 0,
+                    "ne": 0,
+                    "ra": 0,
+                    "fo": 0,
+                    "ps": 0
+        }
+    },
+    "light plated": {
+        "size": 6,
+        "class": ["external", "base", "light"],
+        "name": "Light Plated",
+        "effect": {
+            "ph": 1,
+                    "pi": 1,
+                    "sl": 0,
+                    "bl": 0,
+                "ma": 0,
+                    "co": 0,
+                    "fi": 0,
+                    "li": 0,
+                    "th": 0,
+                    "po": 0,
+                    "ac": 0,
+                    "ne": 0,
+                    "ra": 0,
+                    "fo": 0,
+                    "ps": 0
+        }
+    },
+    "partially plated": {
+        "size": 15,
+        "class": ["external", "base", "medium"],
+        "name": "Partially Plated",
+        "effect": {
+            "ph": 1,
+                    "pi": 1,
+                    "sl": 1,
+                    "bl": 0,
+                "ma": 0,
+                    "co": 0,
+                    "fi": 0,
+                    "li": 0,
+                    "th": 0,
+                    "po": 0,
+                    "ac": 0,
+                    "ne": 0,
+                    "ra": 0,
+                    "fo": 0,
+                    "ps": 0
+        }
+    },
+    "plated": {
+        "size": 15,
+        "class": ["external", "base", "medium"],
+        "name": "Plated",
+        "effect": {
+            "ph": 2,
+                    "pi": 2,
+                    "sl": 1,
+                    "bl": 0,
+                "ma": 0,
+                    "co": 0,
+                    "fi": 0,
+                    "li": 0,
+                    "th": 0,
+                    "po": 0,
+                    "ac": 0,
+                    "ne": 0,
+                    "ra": 0,
+                    "fo": 0,
+                    "ps": 0
+        }
+    },
+    "heavy plated": {
+        "size": 36,
+        "class": ["external", "base", "heavy"],
+        "name": "Heavy Plated",
+        "effect": {
+            "ph": 1,
+                    "pi": 2,
+                    "sl": 3,
+                    "bl": 0,
+                "ma": 0,
+                    "co": 0,
+                    "fi": 0,
+                    "li": 0,
+                    "th": 0,
+                    "po": 0,
+                    "ac": 0,
+                    "ne": 0,
+                    "ra": 0,
+                    "fo": 0,
+                    "ps": 0
+        }
+    },
+    "plated full body": {
+        "size": 45,
+        "class": ["external", "base", "super heavy"],
+        "name": "Plated Full Body",
+        "effect": {
+            "ph": 2,
+                    "pi": 2,
+                    "sl": 3,
+                    "bl": 0,
+                "ma": 0,
+                    "co": 0,
+                    "fi": 0,
+                    "li": 0,
+                    "th": 0,
+                    "po": 0,
+                    "ac": 0,
+                    "ne": 0,
+                    "ra": 0,
+                    "fo": 0,
+                    "ps": 0
+        }
+    },
+    "cloth":{
+        "class": ["material", "inner"],
+        "name": "Cloth",
+        "cost": 20,
+        "effect": {
+            "ph": 0,
+                "pi": 0,
+                "sl": 0,
+                "bl": 1,
+            "ma": 0,
+                "co": 0,
+                "fi": 0,
+                "li": 0,
+                "th": 0,
+                "po": 0,
+                "ac": 0,
+                "ne": 0,
+                "ra": 0,
+                "fo": 0,
+                "ps": 0
+        } 
+    },
+    "leather":{
+        "class": ["material", "inner"],
+        "name": "Leather",
+        "cost": 35,
+        "effect": {
+            "ph": 0,
+                "pi": 1,
+                "sl": 1,
+                "bl": 0,
+            "ma": 0,
+                "co": 0,
+                "fi": 0,
+                "li": 0,
+                "th": 0,
+                "po": 0,
+                "ac": 0,
+                "ne": 0,
+                "ra": 0,
+                "fo": 0,
+                "ps": 0
+        } 
+    },
+    "chainmail":{
+        "class": ["material", "inner"],
+        "name": "Chainmail",
+        "cost": 50,
+        "effect": {
+            "ph": 0,
+                "pi": 0,
+                "sl": 2,
+                "bl": 0,
+            "ma": 0,
+                "co": 0,
+                "fi": 0,
+                "li": 0,
+                "th": 0,
+                "po": 0,
+                "ac": 0,
+                "ne": 0,
+                "ra": 0,
+                "fo": 0,
+                "ps": 0
+        } 
+    },
+    "iron":{
+        "class": ["material", "external"],
+        "name": "Iron",
+        "cost": 100,
+        "effect": {
+            "ph": 0,
+                "pi": 1,
+                "sl": 2,
+                "bl": 0,
+            "ma": 0,
+                "co": 0,
+                "fi": 0,
+                "li": 0,
+                "th": 0,
+                "po": 0,
+                "ac": 0,
+                "ne": 0,
+                "ra": 0,
+                "fo": 0,
+                "ps": 0
+        } 
+    },
+    "steel":{
+        "class": ["material", "external"],
+        "name": "Steel",
+        "cost": 200,
+        "effect": {
+            "ph": 1,
+                "pi": 0,
+                "sl": 2,
+                "bl": 0,
+            "ma": 0,
+                "co": 0,
+                "fi": 0,
+                "li": 0,
+                "th": 0,
+                "po": 0,
+                "ac": 0,
+                "ne": 0,
+                "ra": 0,
+                "fo": 0,
+                "ps": 0
+        } 
+    },
+    "harden steel":{
+        "class": ["material", "external"],
+        "name": "Harden Steel",
+        "cost": 500,
+        "effect": {
+            "ph": 2,
+                "pi": 0,
+                "sl": 1,
+                "bl": 0,
+            "ma": 0,
+                "co": 0,
+                "fi": 0,
+                "li": 0,
+                "th": 0,
+                "po": 0,
+                "ac": 0,
+                "ne": 0,
+                "ra": 0,
+                "fo": 0,
+                "ps": 0
+        } 
+    },
+    "reinforced harden steel":{
+        "class": ["material", "external"],
+        "name": "Reinforced Steel",
+        "cost": 1000,
+        "effect": {
+            "ph": 2,
+                "pi": 0,
+                "sl": 1,
+                "bl": 2,
+            "ma": 0,
+                "co": 0,
+                "fi": 0,
+                "li": 0,
+                "th": 0,
+                "po": 0,
+                "ac": 0,
+                "ne": 0,
+                "ra": 0,
+                "fo": 0,
+                "ps": 0
+        } 
+    },
+    "reforged harden steel":{
+        "class": ["material", "external"],
+        "name": "Reforged Harden Steel",
+        "cost": 1000,
+        "effect": {
+            "ph": 2,
+                "pi": 0,
+                "sl": 3,
+                "bl": 2,
+            "ma": 0,
+                "co": 0,
+                "fi": 0,
+                "li": 0,
+                "th": 0,
+                "po": 0,
+                "ac": 0,
+                "ne": 0,
+                "ra": 0,
+                "fo": 0,
+                "ps": 0
+        } 
+    },
+    "enchanted harden steel":{
+        "class": ["material", "external"],
+        "name": "Enchanted Harden Steel",
+        "cost": 1500,
+        "effect": {
+            "ph": 2,
+                "pi": 0,
+                "sl": 0,
+                "bl": 0,
+            "ma": 2,
+                "co": 0,
+                "fi": 0,
+                "li": 0,
+                "th": 0,
+                "po": 0,
+                "ac": 0,
+                "ne": 0,
+                "ra": 0,
+                "fo": 0,
+                "ps": 0
+        } 
+    },
+    "mithril-steel alloy": {
+        "class": ["material", "external"],
+        "name": "Mithril-Steel Alloy",
+        "cost": 2000,
+        "effect": {
+            "ph": 2,
+                "pi": 2,
+                "sl": 4,
+                "bl": 0,
+            "ma": 3,
+                "co": 0,
+                "fi": 0,
+                "li": 0,
+                "th": 0,
+                "po": 0,
+                "ac": 0,
+                "ne": 0,
+                "ra": 0,
+                "fo": 0,
+                "ps": 0
+        }
+    },
+    "mithril": {
+        "class": ["material", "external"],
+        "name": "Mithril",
+        "cost": 5000,
+        "effect": {
+            "ph": 5,
+                "pi": 0,
+                "sl": 1,
+                "bl": 0,
+            "ma": 5,
+                "co": 0,
+                "fi": 0,
+                "li": 0,
+                "th": 0,
+                "po": 0,
+                "ac": 0,
+                "ne": 0,
+                "ra": 0,
+                "fo": 0,
+                "ps": 0
+        }
+    },
+    "gold":{
+        "class":["trim", "material"],
+        "name": "Gold",
+        "cost": 25,
+        "effect":{
+            "fi":1,
+            "ra":1
+        }
+
+    },
+    "silver":{
+        "class":["trim", "material"],
+        "name": "Silver",
+        "cost": 20,
+        "effect":{
+            "co":1,
+            "ne":1
+        }
+    },
+    "platinum":{
+        "class":["trim", "material"],
+        "name": "Platinum",
+        "cost": 25,
+        "effect":{
+            "fo":1,
+            "ps":1
+        }
+    },
+    "electrum":{
+        "class":["trim", "material"],
+        "name": "Electrum",
+        "cost": 30,
+        "effect":{
+            "li":1,
+            "th":1
+        }
+    },
+    "adamantine":{
+        "class":["trim", "material"],
+        "name": "Adamantine",
+        "cost": 100,
+        "effect":{
+            "ma":1
+        }
+    }
+}

@@ -1,0 +1,87 @@
+[
+    {
+        name:
+        id
+        class
+        race 
+        age 
+        sex 
+        height 
+        weight 
+        level 
+        exp: [0,100]
+        hp:[0,10]
+        sta:[0,100]
+        mp:[0,100]
+        water:[0,8]
+        food:[0,1]   
+        speed:
+        stat:{
+            STR:
+            CON:
+            DEX:
+            INT:
+            WIS:
+            CHA:
+            LUCK:
+        }
+        "AR": {
+        "physical": 0,
+        "pierce": 0,
+        "slashing": 0,
+        "bludging": 0,
+        "magical": 0,
+        "cold": 0,
+        "fire": 0,
+        "lightning": 0,
+        "thunder": 0,
+        "poison": 0,
+        "acid": 0,
+        "necrotic": 0,
+        "radiant": 0,
+        "force": 0,
+        "psychic": 0
+        },
+        inv:{
+            gp:
+            items:{}
+            equipment:{
+                "head": [],
+                "body": [],
+                "legs": [],
+                "feets": [],
+                "hands": [],
+                "fingers": [],
+                "weapons": []
+            }
+        }
+        skills:{
+            "active":{
+
+            }
+            spellsaveslots:{
+                amount: 10,
+                spells: []
+            }
+            "passive":{
+
+            }
+            proficieny:{
+
+            }
+            language:{
+
+            }
+            "effects"{
+                poison:{
+                    duration: 10,
+                    options:{
+                        source:
+                    }
+                }
+
+            }
+        }
+
+    }
+]

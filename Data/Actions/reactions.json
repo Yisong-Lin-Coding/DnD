@@ -1,0 +1,44 @@
+{
+    "dodge": {
+        "name": "Dodge",
+        "description": "You attempt to dodge an incoming attack, avoiding it entirely if successful.",
+        "type": "reaction",
+        "cooldown": 0,
+        "cost": 0,
+        "duration": 1,
+        "mod":"DEX",
+        "diceroll":"1d20"
+    },
+    "uncanny dodge": {
+        "name": "Uncanny Dodge",
+        "description": "You use your reaction to halve the damage from an attack that hits you, provided you can see the attacker.",
+        "type": "reaction",
+        "cooldown": 0,
+        "cost": 0,
+        "duration": 1
+    },
+    "block": {
+        "name": "Block",
+        "description": "You brace yourself to block an incoming attack, reducing the damage taken by half.",
+        "type": "reaction",
+        "cooldown": 0,
+        "cost": 0,
+        "duration": 1
+    },
+    "heavy block": {
+        "name": "Heavy Block",
+        "description": "You brace yourself to block an incoming attack, reducing the damage taken by three-quarters.",
+        "type": "reaction",
+        "cooldown": 0,
+        "cost": 0,
+        "duration": 1
+    },
+    "counter-clash": {
+        "name": "Counter Clash",
+        "description": "You attempt to counter an attack, making an immediate attack against the attacker.",
+        "type": "reaction",
+        "cooldown": 0,
+        "cost": 0,
+        "duration": 1
+    }
+}

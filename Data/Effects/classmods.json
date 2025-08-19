@@ -1,0 +1,76 @@
+{
+    "wizard":{
+       "description": "A master of arcane arts, capable of casting powerful spells.",
+        "effects": {
+            "statmod": [0, 0, 0, 2, 2, 0, 0],
+            "hp": 0.5,
+            "mp": 2,
+            "sta":0.5,
+            "abilities": {                
+                }
+            }
+            
+        },
+       "durid":{
+        "description": "A nature-based spellcaster, able to heal and control the elements.",
+        "effects": {
+            "statmod": [0, 0, 0, 2, 2, 0, 0],
+            "hp": 1,
+            "mp": 1,
+            "sta":1,
+            "abilities": {
+                
+                }
+            }
+            
+        },
+        "warlock":{
+        "description": "A dark spellcaster who draws power from otherworldly entities.",
+        "effects": {
+            "statmod": [0, 2, 0, 0, 0, 2, 0],
+            "hp": 1.2,
+            "mp": 1.2,
+            "sta":0.7,
+            "abilities": {
+                
+                }
+            }
+            
+        },
+        "rouge":{
+        "description": "A stealthy and agile character, skilled in deception and combat.",
+        "effects": {
+            "statmod": [0, 0, 4, 0, 0, 0, 0],
+            "hp": 0.7,
+            "mp": 0.7,
+            "sta":2,
+            "abilities": {
+                
+                }
+            }
+            
+        },
+        "barbarian":{
+        "description": "A fierce warrior with immense strength and resilience.",
+        "effects": {
+            "statmod": [2, 2, 0, 0, 0, 0, 0],
+            "hp": 2,
+            "mp": 0.5,
+            "sta":1.2,
+            "abilities": {
+                
+                }
+            }
+            
+        },
+        "bard":{},
+        "cleric":{},
+        "fighter":{},
+        "monk":{},
+        "paladin":{},
+        "ranger":{},
+        "sorcerer":{},
+        "artificer":{}
+    
+
+    }

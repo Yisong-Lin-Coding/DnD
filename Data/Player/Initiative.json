@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Tenno",
+    "initiative": 19,
+    "critical": 0
+  },
+  {
+    "name": "Zira",
+    "initiative": 17,
+    "critical": 0
+  },
+  {
+    "name": "Eriran",
+    "initiative": 14,
+    "critical": 0
+  },
+  {
+    "name": "Zykaris",
+    "initiative": 11,
+    "critical": 0
+  },w
+  {
+    "name": "Saakaran",
+    "initiative": 8,
+    "critical": 0
+  },
+  {
+    "name": "Rahmaz",
+    "initiative": 2,
+    "critical": 0
+  }
+]

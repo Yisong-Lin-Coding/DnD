@@ -1,0 +1,519 @@
+{
+  "Erian": {
+    "name": "Erian",
+    "id": "728253214004084756",
+    "class": "wizard",
+    "race": "elf",
+    "age": 110,
+    "sex": "male",
+    "height": "5'1",
+    "weight": 100,
+    "level": 2,
+    "exp": [
+      850,
+      900
+    ],
+    "stats": [
+      10,
+      10,
+      12,
+      14,
+      14,
+      11,
+      0
+    ],
+    "AR": {
+      "physical": 0,
+      "pierce": 0,
+      "slashing": 0,
+      "bludging": 0,
+      "magical": 0,
+      "cold": 0,
+      "fire": 0,
+      "lightning": 0,
+      "thunder": 0,
+      "poison": 0,
+      "acid": 0,
+      "necrotic": 0,
+      "radiant": 0,
+      "force": 0,
+      "psychic": 0
+    },
+    "HP": [
+      10,
+      11
+    ],
+    "STA": [
+      50,
+      50
+    ],
+    "MP": [
+      44,
+      60
+    ],
+    "hungar": 0,
+    "speed": 30,
+    "effects": {},
+    "inv": {
+      "gp": 100
+    },
+    "equipment": {
+      "weapons": 3
+    },
+    "skills": {
+      "active": 2,
+      "passive": 1,
+      "proficiency": [
+        "Perception",
+        "Investigation",
+        "Insight",
+        "Religion",
+        "History",
+        "Spellcasting"
+      ],
+      "language": [
+        "common",
+        "elvish"
+      ]
+    }
+  },
+  "Rahmaz": {
+    "name": "Rahmaz",
+    "id": "629122865450582037",
+    "class": "durid",
+    "race": "goblin",
+    "age": "19",
+    "sex": "male",
+    "height": "5'5",
+    "weight": 70,
+    "level": 2,
+    "exp": [
+      325,
+      900
+    ],
+    "stats": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      0
+    ],
+    "AR": {
+      "physical": 0,
+      "pierce": 0,
+      "slashing": 0,
+      "bludging": 0,
+      "magical": 0,
+      "cold": 0,
+      "fire": 0,
+      "lightning": 0,
+      "thunder": 0,
+      "poison": 0,
+      "acid": 0,
+      "necrotic": 0,
+      "radiant": 0,
+      "force": 0,
+      "psychic": 0
+    },
+    "STA": [
+      90,
+      22
+    ],
+    "HP": [
+      11,
+      11
+    ],
+    "MP": [
+      0,
+      15
+    ],
+    "hungar": 0,
+    "speed": 30,
+    "effects": {},
+    "inv": {},
+    "equipment": {},
+    "skills": {
+      "active": 2,
+      "passive": 1,
+      "proficiency": [
+        "Deception",
+        "Stealth",
+        "Survival",
+        "Insight"
+      ],
+      "language": [
+        "common",
+        "orcish"
+      ]
+    }
+  },
+  "Saakran": {
+    "name": "Saakran",
+    "id": "1038887789158203442",
+    "class": "warlock",
+    "race": "dragonborn",
+    "age": 26,
+    "sex": "n/a",
+    "height": "8'6",
+    "weight": 380,
+    "level": 3,
+    "exp": [
+      950,
+      2700
+    ],
+    "stats": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      0
+    ],
+    "AR": {
+      "physical": 0,
+      "pierce": 0,
+      "slashing": 0,
+      "bludging": 0,
+      "magical": 0,
+      "cold": 0,
+      "fire": 0,
+      "lightning": 0,
+      "thunder": 0,
+      "poison": 0,
+      "acid": 0,
+      "necrotic": 0,
+      "radiant": 0,
+      "force": 0,
+      "psychic": 0
+    },
+    "STA": [
+      22,
+      22
+    ],
+    "HP": [
+      3,
+      12
+    ],
+    "MP": [
+      1,
+      16
+    ],
+    "hungar": 0,
+    "speed": 30,
+    "effects": {},
+    "inv": {},
+    "equipment": {},
+    "skills": {
+      "active": 2,
+      "passive": 1,
+      "proficiency": 1,
+      "language": [
+        "common",
+        "orcish"
+      ]
+    }
+  },
+  "Tenno": {
+    "name": "Tenno",
+    "id": "905641320360599572",
+    "class": "rouge",
+    "race": "tiefling",
+    "age": 17,
+    "sex": "male",
+    "height": "5'8",
+    "weight": 150,
+    "level": 3,
+    "exp": [
+      2325,
+      2700
+    ],
+    "stats": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      0
+    ],
+    "AR": {
+      "physical": 0,
+      "pierce": 0,
+      "slashing": 0,
+      "bludging": 0,
+      "magical": 0,
+      "cold": 0,
+      "fire": 0,
+      "lightning": 0,
+      "thunder": 0,
+      "poison": 0,
+      "acid": 0,
+      "necrotic": 0,
+      "radiant": 0,
+      "force": 0,
+      "psychic": 0
+    },
+    "STA": [
+      160,
+      26
+    ],
+    "HP": [
+      4,
+      11
+    ],
+    "MP": [
+      30,
+      15
+    ],
+    "hungar": 0,
+    "speed": 30,
+    "effects": {},
+    "inv": {
+      "gp": 120,
+      "items": {
+        "healing potion": 1,
+        "mana potion": 1,
+        "dagger": 3,
+        "halberd": 1001,
+        "longsword": 1,
+        "gp": 100
+      }
+    },
+    "equipment": {},
+    "skills": {
+      "active": 2,
+      "passive": 1,
+      "proficiency": 1,
+      "language": [
+        "common",
+        "orcish"
+      ]
+    }
+  },
+  "Zira": {
+    "name": "Zira",
+    "id": "895794191395876875",
+    "class": "barbarian",
+    "race": "half-orc",
+    "age": 16,
+    "sex": "female",
+    "height": "5'11",
+    "weight": 210,
+    "level": 3,
+    "exp": [
+      1125,
+      2700
+    ],
+    "stats": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      0
+    ],
+    "AR": {
+      "physical": 0,
+      "pierce": 0,
+      "slashing": 0,
+      "bludging": 0,
+      "magical": 0,
+      "cold": 0,
+      "fire": 0,
+      "lightning": 0,
+      "thunder": 0,
+      "poison": 0,
+      "acid": 0,
+      "necrotic": 0,
+      "radiant": 0,
+      "force": 0,
+      "psychic": 0
+    },
+    "STA": [
+      25,
+      24
+    ],
+    "HP": [
+      4,
+      13
+    ],
+    "MP": [
+      10,
+      15
+    ],
+    "hungar": 0,
+    "speed": 30,
+    "effects": {},
+    "inv": {},
+    "equipment": {},
+    "skills": {
+      "active": 2,
+      "passive": 1,
+      "proficiency": 1,
+      "language": [
+        "common",
+        "orcish"
+      ]
+    }
+  },
+  "Zykaris": {
+    "name": "Zykaris",
+    "id": "809281814509387806",
+    "class": "wizard",
+    "race": "lich",
+    "age": "N/A",
+    "sex": "male",
+    "height": "5'11",
+    "weight": 270,
+    "level": 4,
+    "exp": [
+      200,
+      10000
+    ],
+    "stats": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      0
+    ],
+    "AR": {
+      "physical": 0,
+      "pierce": 0,
+      "slashing": 0,
+      "bludging": 0,
+      "magical": 0,
+      "cold": 0,
+      "fire": 0,
+      "lightning": 0,
+      "thunder": 0,
+      "poison": 0,
+      "acid": 0,
+      "necrotic": 0,
+      "radiant": 0,
+      "force": 0,
+      "psychic": 0
+    },
+    "STA": [
+      21,
+      22
+    ],
+    "HP": [
+      7,
+      11
+    ],
+    "MP": [
+      105,
+      18
+    ],
+    "hungar": 0,
+    "speed": 0,
+    "stataMOD": [
+      0,
+      0,
+      4,
+      0,
+      1,
+      2,
+      0
+    ],
+    "effects": {},
+    "inv": {},
+    "equipment": {},
+    "skills": {
+      "active": 2,
+      "passive": 1,
+      "proficiency": 1,
+      "language": [
+        "common",
+        "orcish"
+      ]
+    }
+  },
+  "Jesus": {
+    "name": "Jesus",
+    "initiative": 0,
+    "id": "451458850961489922",
+    "class": "rouge",
+    "race": "tiefling",
+    "age": 17,
+    "sex": "male",
+    "height": "5'8",
+    "weight": 150,
+    "level": 3,
+    "exp": [
+      2325,
+      2700
+    ],
+    "HP": [0,10],
+    "STA":[0,100],
+    "MP":[0,100],
+    "water":[0,8],
+    "food": [0,12],
+    "stats": {
+      "STR": 10,
+      "CON": 10,
+      "DEX": 10,
+      "INT": 10,
+      "WIS": 10,
+      "CHA": 10,
+      "LUCK": 10
+    },
+    "AR": {
+      "physical": 0,
+      "pierce": 0,
+      "slashing": 0,
+      "bludging": 0,
+      "magical": 0,
+      "cold": 0,
+      "fire": 0,
+      "lightning": 0,
+      "thunder": 0,
+      "poison": 0,
+      "acid": 0,
+      "necrotic": 0,
+      "radiant": 0,
+      "force": 0,
+      "psychic": 0
+    },
+    "inv": {
+      "gp": 10001080,
+      "items": {
+        "halberd": 994,
+        "crossbow": 2,
+        "potato": 1,
+        "longsword": 1,
+        "lance": 1,
+        "pike": 1,
+        "dagger": 50
+      },
+      "equipment": {
+      "head": [],
+      "body": [],
+      "legs": [],
+      "feets": [],
+      "hands": [],
+      "fingers": [],
+      "weapons": [
+        "halberd"
+      ]
+    }
+    },
+    "skills": {
+      "active": [],
+      "passive": [],
+      "proficiency": [],
+      "language": [
+        "common",
+        "orcish"
+      ],
+      "effects":{}
+    }
+  }
+}
